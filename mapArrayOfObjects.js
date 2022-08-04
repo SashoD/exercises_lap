@@ -27,15 +27,13 @@ const todoID = 2;
 
 // PROBLEM WITH undefined!!!
 
-const newTodos = todos.map(list => {
-    if (list.id == todoID) {
-        return todos.map(list => list).filter(list => list.completed = true)
+// const newTodos = JSON.parse(JSON.stringify(todos));
+// const todo = newTodos.filter(todo => todo.id === todoID)[0]
+// todo.completed = !todo.completed;
 
-    }
-})
-// const newTodos2 = todos.filter(list => list.id == todoID && list.completed == false);
+// const newTodos = todos.map(todo => todo.id === todoID ? Object.assign({}, todo, { completed: !todo.completed }) : todo)
 
-
+const todoCopy = { ...todo }
 /* ----------------------------- YOUR CODE HERE ----------------------------- */
 
 
