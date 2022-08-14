@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    display: flex;
+    height: 340px;
+    width: 100%;
+    justify-content: center
+}
+
+input{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+body{
+    background-color: rgb(128, 119, 110);
+}
+
+.div2{
+    margin-top: 30px;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    width: 450px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: brown;
+    text-shadow: 0px 1px 1px;
+    letter-spacing: 3px;
+    text-align:unset
+}
