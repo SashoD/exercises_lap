@@ -16,6 +16,12 @@ const url1 = './50cent.txt';
 const url2 = './jay-z.txt';
 const url3 = './eminem.txt';
 
+// const urls = {
+//     '1.jpg': './50cent.txt',
+//     '2.jpg': './jay-z.txt',
+//     '3.jpg': './eminem.txt'
+// }
+
 const dom = {
     'input1': document.querySelector('.btn1'),
     'input2': document.querySelector('.btn2'),
@@ -50,3 +56,13 @@ dom.input3.addEventListener('click', function (e) {
             doSomethingWithData(text);
         })
 })
+// for (const key in urls) {
+//     dom.input1.addEventListener('click', function (e) {
+//         fetch(urls[key], { method: 'GET' })
+//             .then(r => processResponse(r))
+//             .then(text => {
+//                 doSomethingWithData(text);
+//             })
+
+//     })
+// }
